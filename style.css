@@ -1,0 +1,104 @@
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li,img,button,a,form,input,label{
+    margin: 0;
+    padding: 0;
+}
+body{
+     background-color: #012D63; 
+}
+.container{
+     width: 1450px;
+    outline: solid red;
+   margin: 0 auto;
+   padding: 0 15px;
+   
+}
+.header{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    font-size: 24px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header-logo{
+    display: block;
+    width: 100px;
+    height: 60px;
+   
+}
+.nike-div{
+display: flex;
+align-items: center;
+
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 28px;
+}
+.nav-item{
+    display: flex;
+    gap: 30px;
+    margin-right: 74px;
+    margin-left: 150px;
+}
+.second-container{
+    padding: 0 11px;
+    width: 1450px;
+    margin: 0 auto;
+    
+}
+
+.first-section{
+ outline: solid red;
+ 
+}
+
+.nav-list{
+padding-right: 30px;
+padding-bottom: 30px;
+font-size: 24px;
+font-weight: 400;
+line-height: 1.2px;
+}
+.header-button-list{
+    display: flex;
+    gap: 15px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+.header-link{
+    color: #ffffff;
+}
+.main-img{
+ margin-left: 30px;
+ 
+}
+.Main-nike{
+    display: flex;
+}
+.main-section{
+    display: block;
+}
+.button-b{
+    display: flex;
+    
+border-radius: 10px 0px 0px 0px;
+justify-content: center;
+line-height: 28.13px;
+background-color: #8E32C6;
+color: white;
+
+}
